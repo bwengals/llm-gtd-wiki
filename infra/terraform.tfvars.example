@@ -1,0 +1,10 @@
+# Copy to terraform.tfvars and fill in. terraform.tfvars is gitignored — never commit real values.
+
+aws_region            = "us-west-2"
+name_prefix           = "llm-gtd-wiki"
+cognito_domain_prefix = "CHANGEME-unique-prefix"   # must be globally unique
+bucket_name           = "CHANGEME-unique-bucket"   # must be globally unique
+owner_email           = "you@example.com"
+
+# Only override if Phase 0 shows Anthropic uses different callback URLs:
+# claude_redirect_uris = ["https://claude.ai/api/mcp/auth_callback"]

@@ -1,0 +1,16 @@
+{
+  "_comment": "Drop this in .claude/settings.local.json when using a LOCAL CLONE of your wiki with Claude Code. defaultMode acceptEdits stops the per-file edit confirmations (routine task edits just apply); the deny rules keep raw/ immutable and log.md append-only (Edit still works for appends).",
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Read(./**)",
+      "Edit(./**/*.md)",
+      "Write(./**/*.md)"
+    ],
+    "deny": [
+      "Edit(./raw/**)",
+      "Write(./raw/**)",
+      "Write(./log.md)"
+    ]
+  }
+}
