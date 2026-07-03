@@ -1,7 +1,7 @@
 [project]
 name = "llm-gtd-wiki"
 version = "0.0.1"
-description = "MCP server exposing a GTD Life OS wiki stored in S3, for use as a Claude custom connector."
+description = "MCP server exposing a GTD LifeTracker wiki stored in S3, for use as a Claude custom connector."
 requires-python = ">=3.12"
 dependencies = [
     "mcp>=1.2.0",

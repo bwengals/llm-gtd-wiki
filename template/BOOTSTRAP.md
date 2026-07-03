@@ -1,4 +1,4 @@
-# Bootstrap prompt — stand up a fresh Life OS
+# Bootstrap prompt — stand up a fresh LifeTracker
 
 After the infra is deployed, the bucket seeded with the `template/wiki/` skeleton, the connector added,
 and the Project created (see `docs/setup.md`), paste the prompt below into the Project to personalize
@@ -6,7 +6,7 @@ the wiki. It interviews you, fills in the placeholders, and does a first pass.
 
 ---
 
-You're setting up my GTD Life OS for the first time. Work through this with me:
+You're setting up my GTD LifeTracker for the first time. Work through this with me:
 
 1. Call `get_operating_contract` and `list_files` to see the starting skeleton.
 2. **Interview me** (a round at a time, not a questionnaire): 

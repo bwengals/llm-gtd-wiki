@@ -1,6 +1,6 @@
-# CLAUDE.md — Life OS operating contract
+# CLAUDE.md — LifeTracker operating contract
 
-This wiki is a personal **Life OS**: a markdown store of projects, tasks, errands, and notes that
+This wiki is a personal **LifeTracker**: a markdown store of projects, tasks, errands, and notes that
 you (Claude) help maintain. It is GTD-based and inspired by Karpathy's LLM-wiki pattern. Your job is
 to carry the **maintenance burden** — capturing, clarifying, filing, pruning, reviewing — so the
 human can just capture thoughts and decide/do.

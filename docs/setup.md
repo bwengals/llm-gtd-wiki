@@ -47,7 +47,7 @@ one in the phone app, only use it). See [connector-oauth.md](connector-oauth.md)
 fails.
 
 ## 6. Create the Claude Project
-Make a "Life OS" Project and paste [`template/project-instructions.md`](../template/project-instructions.md)
+Make a "LifeTracker" Project and paste [`template/project-instructions.md`](../template/project-instructions.md)
 as its custom instructions. See [claude-project.md](claude-project.md).
 
 ## 7. Personalize (bootstrap)

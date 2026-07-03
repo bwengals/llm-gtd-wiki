@@ -1,16 +1,16 @@
 # The Claude Project
 
 The plain Claude apps don't auto-load a `CLAUDE.md` the way Claude Code does. To make every chat
-behave like the Life OS, put the operating rules in a **Project**.
+behave like the LifeTracker, put the operating rules in a **Project**.
 
 ## Steps
-1. In the Claude app, create a Project (e.g. "Life OS").
+1. In the Claude app, create a Project (e.g. "LifeTracker").
 2. Paste [`template/project-instructions.md`](../template/project-instructions.md) as the Project's
    **custom instructions**. It tells Claude to call `get_operating_contract` first and summarizes the
    rules.
 3. Make sure the **llm-gtd-wiki** connector is enabled, plus (optionally) the first-party **Gmail**
    and **Google Calendar** connectors.
-4. Do your Life OS work inside this Project.
+4. Do your LifeTracker work inside this Project.
 
 ## Why `get_operating_contract` first
 The full contract lives in the wiki's `CLAUDE.md` (in S3), so it stays editable and in one place. The

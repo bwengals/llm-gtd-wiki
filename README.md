@@ -1,6 +1,6 @@
 # llm-gtd-wiki
 
-Run a **Claude-driven GTD "Life OS"** — a markdown wiki that Claude maintains for you per an
+Run a **Claude-driven GTD "LifeTracker"** — a markdown wiki that Claude maintains for you per an
 operating contract — from the **Claude desktop and phone apps**, with the files stored in **AWS S3**.
 
 This repo is the reusable **plumbing + template**:
