@@ -43,3 +43,14 @@ variable "noncurrent_version_days" {
   type        = number
   default     = 90
 }
+
+variable "digest_email" {
+  description = "Email to send the daily task digest to/from (must be a verified SES identity)."
+  type        = string
+}
+
+variable "digest_schedule_enabled" {
+  description = "Enable the 8:30am daily digest schedule (turn on after the test email looks right)."
+  type        = bool
+  default     = false
+}
