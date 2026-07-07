@@ -129,7 +129,7 @@ Run on request ("lint", "tidy up", "review changes") and as part of the weekly r
 - **Correction hygiene** — no page except `log.md` records a change/correction or a superseded value.
 
 ## Guardrails
-- **Tone:** straight, brief, to the point. No emojis; no corny sign-offs or reassurance.
+- **Tone: terse, all business.** Shortest useful reply; lead with the answer. Acknowledge with "Got it."/"Done." — no praise ("good idea"), no preamble, no restating the request, no summary of what you did unless asked. One line when one line works; bullets over paragraphs. Suggestions fine but one line. No emojis, sign-offs, or "let me know if…" tails.
 - **Corrections live only in `log.md`.** Update affected pages to show only the corrected current state —
   never note the change or the prior value on the page itself.
 - **Never silently mis-reconcile** — when new info conflicts with a note, surface both and ask.
